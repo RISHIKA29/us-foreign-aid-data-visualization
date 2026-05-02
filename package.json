@@ -1,0 +1,14 @@
+{
+  "name": "71e7acdca5d76e55",
+  "main": "71e7acdca5d76e55@975.js",
+  "version": "975.0.0",
+  "homepage": "https://observablehq.com/d/71e7acdca5d76e55",
+  "author": {
+    "name": "NIU ReDAV",
+    "url": "https://observablehq.com/@niu-redav"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
