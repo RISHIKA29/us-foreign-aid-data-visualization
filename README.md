@@ -1,33 +1,55 @@
-# Final Project - US Foreign Aid Visualization
+# US Foreign Aid Data Visualization
 
-https://observablehq.com/d/71e7acdca5d76e55@975
+## Overview
+This project presents an interactive visualization of US foreign aid distribution using Observable and D3.js. The goal is to explore how foreign aid is distributed across countries, sectors, and time through interactive visual analytics.
 
-View this notebook in your browser by running a web server in this folder. For
-example:
+The project focuses on making complex funding patterns easier to understand through coordinated views and exploratory visual design.
 
-~~~sh
+---
+
+## Tech Stack
+- Observable
+- D3.js
+- JavaScript
+- HTML/CSS
+- TSV data processing
+
+---
+
+## Key Features
+- Interactive visualization of US foreign aid data
+- Country and sector-level analysis
+- Time-based exploration of aid distribution
+- Browser-based dashboard built with Observable runtime
+
+---
+
+## Project Structure
+```
+us-foreign-aid-data-visualization/
+├── index.html
+├── index.js
+├── runtime.js
+├── inspector.css
+├── package.json
+├── files/
+│   └── foreign_aid_data.tsv
+└── README.md
+```
+How to Run
+
+Download or clone the repository, then run a local web server inside the project folder.
+
+Using Node:
+
 npx http-server
-~~~
 
-Or, use the [Observable Runtime](https://github.com/observablehq/runtime) to
-import this module directly into your application. To npm install:
+Then open the local server link in your browser.
 
-~~~sh
-npm install @observablehq/runtime@5
-npm install https://api.observablehq.com/d/71e7acdca5d76e55@975.tgz?v=3
-~~~
+Original Observable Notebook
 
-Then, import your notebook and the runtime as:
+This project was originally developed in Observable and exported for local use.
 
-~~~js
-import {Runtime, Inspector} from "@observablehq/runtime";
-import define from "71e7acdca5d76e55";
-~~~
+Author
 
-To log the value of the cell named “foo”:
-
-~~~js
-const runtime = new Runtime();
-const main = runtime.module(define);
-main.value("foo").then(value => console.log(value));
-~~~
+Rishika Reddy
