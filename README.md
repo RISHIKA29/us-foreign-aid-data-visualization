@@ -18,10 +18,11 @@ The goal was to make complex funding flows easier to understand through visual s
 ## Dashboard Preview
 
 ### Full Dashboard
-![Dashboard Overview](<img width="1002" height="707" alt="image" src="https://github.com/user-attachments/assets/14f3a885-f1ad-49b5-bd3e-d1587601a1b9" />)
+![Dashboard Overview](images/dashboard_overview.png)
 
 ### Regional Filtering (Example: Sub-Saharan Africa)
-![Regional View](<img width="1011" height="709" alt="image" src="https://github.com/user-attachments/assets/1f183bca-094d-4971-a367-87283bfdc62c" />)
+![Regional View](images/region_filter.png)
+
 
 ---
 
