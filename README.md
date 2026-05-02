@@ -1,26 +1,43 @@
 # US Foreign Aid Data Visualization
 
 ## Overview
-This project presents an interactive visualization of US foreign aid distribution using Observable and D3.js. The goal is to explore how foreign aid is distributed across countries, sectors, and time through interactive visual analytics.
+This project explores how U.S. foreign aid is distributed across countries, sectors, and funding categories using an interactive data visualization built with Observable and D3.js.
 
-The project focuses on making complex funding patterns easier to understand through coordinated views and exploratory visual design.
+The goal was to make complex funding flows easier to understand through visual storytelling and interactive exploration.
+
+---
+
+## Key Insights
+- A significant portion of funding is concentrated in a few regions, particularly Sub-Saharan Africa
+- Health and humanitarian programs account for a large share of total aid allocation
+- Funding distribution varies widely across sectors, indicating strategic prioritization
+- A small number of countries receive disproportionately high levels of aid
+
+---
+
+## Dashboard Preview
+
+### Full Dashboard
+![Dashboard Overview](<img width="1002" height="707" alt="image" src="https://github.com/user-attachments/assets/14f3a885-f1ad-49b5-bd3e-d1587601a1b9" />)
+
+### Regional Filtering (Example: Sub-Saharan Africa)
+![Regional View](<img width="1011" height="709" alt="image" src="https://github.com/user-attachments/assets/1f183bca-094d-4971-a367-87283bfdc62c" />)
+
+---
+
+## Features
+- Interactive choropleth map showing aid distribution by country
+- Flow-based visualization of funding categories and sectors
+- Region-based filtering to explore geographic patterns
+- Dynamic highlighting of funding allocation across categories
 
 ---
 
 ## Tech Stack
-- Observable
-- D3.js
 - JavaScript
+- D3.js
+- Observable Runtime
 - HTML/CSS
-- TSV data processing
-
----
-
-## Key Features
-- Interactive visualization of US foreign aid data
-- Country and sector-level analysis
-- Time-based exploration of aid distribution
-- Browser-based dashboard built with Observable runtime
 
 ---
 
@@ -34,22 +51,32 @@ us-foreign-aid-data-visualization/
 ├── package.json
 ├── files/
 │   └── foreign_aid_data.tsv
+├── images/
+│   ├── dashboard_overview.png
+│   └── region_filter.png
 └── README.md
 ```
-How to Run
 
-Download or clone the repository, then run a local web server inside the project folder.
+## How to Run
 
-Using Node:
+This project runs in the browser using a local server.
 
-npx http-server
+1. Clone the repository:
+   git clone https://github.com/RISHIKA29/us-foreign-aid-data-visualization.git
+   cd us-foreign-aid-data-visualization
+2. Start a local server:
+   npx http-server
+3. Open the provided local URL in your browser.
 
-Then open the local server link in your browser.
+## Design Notes
 
-Original Observable Notebook
+The dashboard was designed to prioritize clarity and usability.
+The layout focuses on:
 
-This project was originally developed in Observable and exported for local use.
+Central geographic context (map)
+Clear grouping of funding categories
+Minimal clutter for easier interpretation
 
-Author
+## Author
 
 Rishika Reddy
