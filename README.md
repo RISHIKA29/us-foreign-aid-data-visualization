@@ -57,6 +57,7 @@ us-foreign-aid-data-visualization/
 │   └── region_filter.png
 └── README.md
 ```
+---
 
 ## How to Run
 
@@ -69,6 +70,18 @@ This project runs in the browser using a local server.
    npx http-server
 3. Open the provided local URL in your browser.
 
+---
+
+## Business Impact
+This dashboard helps users:
+- Explore how U.S. foreign aid is distributed across countries and regions
+- Compare funding allocation across sectors and categories
+- Identify regions receiving higher aid concentration
+- Understand complex funding patterns through interactive visual design
+- Support policy, research, and data storytelling use cases
+
+---
+
 ## Design Notes
 
 The dashboard was designed to prioritize clarity and usability.
@@ -77,6 +90,8 @@ The layout focuses on:
 Central geographic context (map)
 Clear grouping of funding categories
 Minimal clutter for easier interpretation
+
+---
 
 ## Author
 
