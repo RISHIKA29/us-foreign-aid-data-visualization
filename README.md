@@ -1,5 +1,7 @@
 # US Foreign Aid Data Visualization
 
+Interactive D3.js dashboard visualizing U.S. foreign aid flows across countries, regions, sectors, and funding categories.
+
 ## Overview
 This project explores how U.S. foreign aid is distributed across countries, sectors, and funding categories using an interactive data visualization built with Observable and D3.js.
 
